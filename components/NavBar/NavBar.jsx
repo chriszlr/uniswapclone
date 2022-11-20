@@ -27,7 +27,7 @@ const NavBar = () => {
   ]
 
   const [openModel, setopenModel] = useState(false)
-  const [openTokenBox, setOpenTokenBox] = useState(true)
+  const [openTokenBox, setOpenTokenBox] = useState(false)
 
 
   return (
