@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState, useEffect, useContext } from 'react'
+import {HeroSection} from "../components/index"
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <HeroSection accounts="hey" tokenData="DATA" />
+    </div>
   )
 }
 
