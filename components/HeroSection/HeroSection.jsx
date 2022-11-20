@@ -9,7 +9,7 @@ const HeroSection = ({ accounts, tokenData }) => {
 
   const [openSetting, setOpenSetting] = useState(false)
   const [openToken, setOpenToken] = useState(false)
-  const [openTokensTwo, setOpenTokensTwo] = useState(false)
+  const [openTokensTwo, setOpenTokenTwo] = useState(false)
 
   // token 1
   const [tokenOne, setTokenOne] = useState({
@@ -65,7 +65,7 @@ const HeroSection = ({ accounts, tokenData }) => {
       )}
 
       {openToken && (
-        <SearchToken openToken={setOpenTokensTwo} tokens={setTokenTwo} tokenData={tokenData} />
+        <SearchToken openToken={setOpenTokenTwo} tokens={setTokenTwo} tokenData={tokenData} />
       )}
     </div>
   )
